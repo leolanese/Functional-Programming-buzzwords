@@ -1,5 +1,5 @@
 # Functional Programming Keynotes and take aways
-Brief definitions of Functional Programming concepts.
+Lets coin the definitions of Functional Programming.
 
 ## Keynotes
 
@@ -92,11 +92,18 @@ A Monad is a Functor, but it also implements the Applicative and Chain specifica
 
 
 #### Reactive Functional Programming: 
-Reactive Programming is a paradigm where "async data streams" can be used almost everywhere. Everything is a stream.
+RFP is not FP. Reactive Programming is a paradigm where "async data streams" can be used almost everywhere. Everything is a stream.
 
 
 #### Imperative programming:
 Imperative programming is a style of programming where the programmers tell the computer what to do by telling it 'how' to do it. Imperative programming gives rise to a lot of the constructs we use every day: control flow (if-then-else statements and loops), arithmetic operators (+, -, *, /), comparison operators (===, >, <, etc.), and logical operators (&&, ||, !).
+ 
+ 
+#### Declarative/Functional vs Imperative/Procedural:
+- Functional Programming: 
+Is a declarative paradigm, meaning that the program logic is expressed without explicitly describing the flow control.
+- Imperative programs:
+Spend lines of code describing the specific steps used to achieve the desired results the flow control: How to do things.
  
  
 #### FP definition

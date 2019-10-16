@@ -40,7 +40,15 @@ In JS, functions are 'First-Class' & 'Higher-Order functions'.
 
 #### side-effects:
 Mutating data can cause unintended side-effects.
-A side effect is a change of system state or observable interaction with the outside world that occurs during the calculation of a result.
+A side effect is a change of system state or observable interaction with the outside world that occurs during the calculation of a result. 
+Side effects include:
+- Modifying any external variable or object property (e.g., a global variable, or a variable in the parent function scope chain)
+- Logging to the console
+- Writing to the screen
+- Writing to a file
+- Writing to the network
+- Triggering any external process
+- Calling any other functions with side-effects
 
 
 #### Pure function:

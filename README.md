@@ -76,8 +76,7 @@ Shared state is any variable, object, or memory space that exists in a shared sc
 
 
 #### Currying:
-Currying allows a function with multiple arguments to be translated into a sequence of functions, in other words, currying allows you to create a function from another function by not providing all arguments.
-
+Currying is when a functions doesn't take all their arguments all upfront. Instead take the first argument and then the function returns another function which used the second argument, which in turn return a third function that used the third argument... and so on!
 
 #### Memoization:
 Functions that are expensive to run can be optimised with memoisation. This involves using a closure to cache the results of previous calls to the function.

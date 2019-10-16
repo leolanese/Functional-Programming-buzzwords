@@ -83,15 +83,25 @@ Functions that are expensive to run can be optimised with memoisation. This invo
 
 
 #### Functors
-A functor is simply something that can be mapped over.
+A functor is simply something that can be .map over.
 
 
 #### Monads:
 A Monad is a Functor, but it also implements the Applicative and Chain specifications.
+Monads can be thought of as a container for a value,
+and to open up the container and do something to the value, you need to map over it.
+
+
+
+#### Functional Programming' and Reactive Programming:
+Functional programming and reactive programming should be considered as two different paradigms. Functional programming focuses on the interpretation of functions as mathematical functions—stateless and without side effects. On the other hand, reactive programming focuses on the propagation of changes as streams of events. The term functional-reactive programming is used to refer to a superset of reactive programming.
 
 
 #### Reactive Functional Programming: 
-RFP is not FP. Reactive Programming is a paradigm where "async data streams" can be used almost everywhere. Everything is a stream.
+RFP is not FP. Reactive Programming is a paradigm where "async data streams" can be used almost everywhere. Everything is a stream. 
+RFP is a paradigm for creating entire applications with nothing but streams of values over time.
+The same as in Functional Programming, we want to avoid any kind of mutable state and program by composing pure functions.
+
 
 
 #### Imperative programming:
@@ -103,6 +113,11 @@ Imperative programming is a style of programming where the programmers tell the 
 Is a declarative paradigm, meaning that the program logic is expressed without explicitly describing the flow control.
 - Imperative programs:
 Spend lines of code describing the specific steps used to achieve the desired results the flow control: How to do things.
+ 
+ 
+#### Optics
+Optics is a functional programming concept that can help us to reduce the amount of code that we need to write and make operations more readable. The benefits of using optics are particularly noticeable when we are working with immutable data structures
+ 
  
  
 #### FP definition

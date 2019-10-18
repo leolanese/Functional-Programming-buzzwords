@@ -108,6 +108,16 @@ The same as in Functional Programming, we want to avoid any kind of mutable stat
 Imperative programming is a style of programming where the programmers tell the computer what to do by telling it 'how' to do it. Imperative programming gives rise to a lot of the constructs we use every day: control flow (if-then-else statements and loops), arithmetic operators (+, -, *, /), comparison operators (===, >, <, etc.), and logical operators (&&, ||, !).
  
  
+### Imperative Vs Functional Programming:
+
+In Imperative approach, a developer writes code that describes in exacting detail the steps that the computer must take to accomplish the goal (how to do it)
+In functional approach involves composing the problem as a set of functions to be executed (what to do)
+
+
+In imperative the functions that are evaluated are the main way of gaining and transforming data across, 
+functional programming is stateless. The lack of state allows a functional language to be reasoned just by looking at a pure function's input and output.
+
+
 #### Declarative/Functional vs Imperative/Procedural:
 - Functional Programming: 
 Is a declarative paradigm, meaning that the program logic is expressed without explicitly describing the flow control.

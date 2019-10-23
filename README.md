@@ -133,3 +133,21 @@ Optics is a functional programming concept that can help us to reduce the amount
 #### FP definition
 Functional programming is a paradigm in which we will be creating functions that are going to work out its logic by depending only on its input. This ensures that a function, when called multiple times, is going to return the same result. The function also won't change any data in the outside world, leading to cachable and testable codebase.
 
+
+--
+
+### { 'Leo Lanese',
+###   'I Build Inspiring Responsive Reactive Solutions',
+###   'London, UK' }
+
+### Portfolio<br>
+<a href="http://www.leolanese.com" target="_blank">http://www.leolanese.com</a><br>
+
+### Blog:<br>
+<a href="http://www.leolanese.com/blog" target="_blank">www.leolanese.com/blog</a><br>
+
+### Twitter:<br>
+Follow me at:<a href="http://twitter.com/LeoLaneseltd" target="_blank">http://twitter.com/LeoLaneseltd</a><br>
+
+### Questions / Suggestion / Recommendation ?<br>
+<a href="mail:to">developer@leolanese.com</a><br>

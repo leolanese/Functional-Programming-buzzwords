@@ -134,6 +134,8 @@ FP has no reflection.
 Reflection is the ability of a code to examine and modify the structure and behavior (specifically the values, meta-data, properties and functions) of a program at runtime, like eval() in JS
  
 
+Reflection is the ability of a code to examine and modify the structure and behavior (specifically the values, meta-data, properties & functions) of a program at runtime so it is actually manipulating or invoking of an object’s attributes or functions, like eval() does in JS
+
 #### FP definition:
 Functional programming is a paradigm in which we will be creating functions that are going to work out its logic by depending only on its input. This ensures that a function, when called multiple times, is going to return the same result. The function also won't change any data in the outside world, leading to cachable and testable codebase.
 

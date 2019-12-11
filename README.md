@@ -1,6 +1,6 @@
 # Functional Programming buzzwords
 
-Lets have a look at the few definitions that we will find in Functional Programming:
+Let's have a look at the few definitions that we will find in Functional Programming:
 
 ## Buzzwords:
 
@@ -9,7 +9,7 @@ An expression is said to be referentially transparent when it can be replaced wi
 
 
 #### Declarative:
-FP is a Declarative Paradigm software development style, like other: IP or OOP, that's **keeps 'functions' and 'data' separate**.
+FP is a Declarative Paradigm software development style, like other: Imperative Programming or Object-Oriented Programming, that's **keeps 'functions' and 'data' separate**.
 No 2-way data binding allowed.
 
 
@@ -29,7 +29,7 @@ Functional composition is the process of combining two or more functions in orde
 #### First class:
 Functions in JS are "first-class" objects, this means that something has a value:
 ```javascript
-let name = "Leo";
+const name = "Leo";
 ```
 
 #### First-Class Functions:

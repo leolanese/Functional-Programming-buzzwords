@@ -174,4 +174,3 @@ FP is about pulling programs apart and reassembling them from the same parts, co
 <h5>Blog:
 <a href="http://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
 </h5>
-

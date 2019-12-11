@@ -23,6 +23,7 @@ Hide details (abstract us of the detail) and give us the ability to talk about p
 
 #### Function composition:
 Composition means that we can attach multiple functions together, in a chain, where the return value of the first function becomes the input for the next function
+Functional composition is the process of combining two or more functions in order to produce a new function or perform some computation.
 
 
 #### First class:
@@ -33,6 +34,7 @@ let name = "Leo";
 #### First-Class Functions:
 It means that you can STORE functions into a variable:
 var subName = function(a,b){ return name + a + b };
+
 
 #### Higher-Order function:
 A higher-order function is a function that can take another function as an argument, or that returns a function as a result.
@@ -57,10 +59,6 @@ Side effects include:
 - Has no side effects (immutable)
 
 
-#### Function composition:
-Is the process of combining two or more functions in order to produce a new function or perform some computation.
-
-
 #### Immutability:
 An immutable object is an object that can’t be modified after it’s created. Conversely, a mutable object is any object
 which can be modified after it’s created.
@@ -78,6 +76,7 @@ Shared state is any variable, object, or memory space that exists in a shared sc
 
 #### Currying:
 Currying is when a functions doesn't take all their arguments all upfront. Instead take the first argument and then the function returns another function which used the second argument, which in turn return a third function that used the third argument... and so on!
+
 
 #### Memoization:
 Functions that are expensive to run can be optimised with memoisation. This involves using a closure to cache the results of previous calls to the function.

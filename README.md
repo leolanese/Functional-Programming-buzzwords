@@ -5,16 +5,16 @@ Lets have a look at the few definitions that we will find in Functional Programm
 ## Buzzwords:
 
 #### Referential transparency:
-An expression is said to be referentially transparent when it can be replaced with its corresponding value without changing the application's behavior
+An expression is said to be referentially transparent when it can be replaced with its corresponding value without changing the application's behaviour
 
 
 #### Declarative:
-FP is a Declarative Paradigm software development style, like other: IP or OOP, thats **keeps 'functions' and 'data' separate**.
+FP is a Declarative Paradigm software development style, like other: IP or OOP, that's **keeps 'functions' and 'data' separate**.
 No 2-way data binding allowed.
 
 
 #### Paradigm:
-In simple terms, it is a way of thinking about software construction, based on some development style that follow principles.
+In simple terms, it is a way of thinking about software construction, based on some development style that follows principles.
 
 
 #### Abstractions:
@@ -62,7 +62,7 @@ Side effects include (not a complete list):
 #### Pure function:
 - Given the same input, always return the same output (pure)
 - Has no side effects (immutable)
-This means that the function body may not depend on variables outside its arguments, unless they are constant for the lifetime of the program.
+This means that the function body may not depend on variables outside its arguments unless they are constant for the lifetime of the program.
 
 #### Immutability:
 An immutable object is an object that can’t be modified after it’s created. Conversely, a mutable object is any object
@@ -75,12 +75,12 @@ Recursion (use it instead for or while loops)
 
 
 #### Shared state 
-FP avoids shared state, instead relying on immutable data structures and pure calculations.
+FP avoids shared state, instead of relying on immutable data structures and pure calculations.
 Shared state is any variable, object, or memory space that exists in a shared scope, or as the property of an object being passed between scopes.
 
 
 #### Currying:
-Currying is when a functions doesn't take all their arguments all upfront. Instead take the first argument and then the function returns another function which used the second argument, which in turn return a third function that used the third argument... and so on!
+Currying is when a function doesn't take all their arguments all upfront. Instead, take the first argument and then the function returns another function which used the second argument, which in turn return a third function that used the third argument... and so on!
 
 
 #### Memoization:
@@ -125,7 +125,7 @@ functional programming is stateless. The lack of state allows a functional langu
 
 #### Declarative/Functional vs Imperative/Procedural:
 - Functional Programming: 
-Is a declarative paradigm, meaning that the program logic is expressed without explicitly describing the flow control: 'what is needs to be done'.
+Is a declarative paradigm, meaning that the program logic is expressed without explicitly describing the flow control: 'what it needs to be done'.
 - Imperative programs:
 Spend lines of code describing the specific steps used to achieve the desired results the flow control: 'How to do things'.
  
@@ -136,7 +136,7 @@ Optics is a functional programming concept that can help us to reduce the amount
  
 #### Reflection:
 FP has no reflection.
-Reflection is the ability of a code to examine and modify the structure and behavior (specifically the values, meta-data, properties & functions) of a program at runtime so it is actually manipulating or invoking of an object’s attributes or functions, like eval() does in JS.
+Reflection is the ability of a code to examine and modify the structure and behaviour (specifically the values, meta-data, properties & functions) of a program at runtime so it is actually manipulating or invoking of an object’s attributes or functions, like eval() does in JS.
 
 
 #### Pure objects:
@@ -144,14 +144,11 @@ A pure object in JavaScript means that it should not have any functions in its p
 
 
 #### Functional Programing:
-Functional programming is a paradigm in which we will be creating functions that are going to work
-out its logic by depending only on its input. This ensures that a function, when called multiple times,
- is going to return the same result. The function also won't change any data in the outside world,
- leading to cachable and testable codebase.
+Functional programming is a paradigm in which we will be creating functions that are going to work out its logic by depending only on its input. This ensures that a function, when called multiple times, is going to return the same result. The function also won't change any data in the outside world, leading to the cachable and testable codebase.
 
 
 #### Functional Programming long definition:
-"Functional programming is a 'declarative' 'paradigm' of building software by 'composing' 'pure functions', avoiding 'shared state', 'mutable data' and 'side-effects'. Placing the mayor emphasis on the use of functions to come up with a result; the goal, rather, is to 'abstract control flows and operations on data with these functions and threaten them as building blocks' by relying on 'JS first-class' and 'higher-order functions' to improve the modularity, predictability and reusability of your code.
+"Functional programming is a 'declarative' 'paradigm' of building software by 'composing' 'pure functions', avoiding 'shared state', 'mutable data' and 'side-effects'. Placing the major emphasis on the use of functions to come up with a result; the goal, rather, is to 'abstract control flows and operations on data with these functions and threaten them as building blocks' by relying on 'JS first-class' and 'higher-order functions' to improve the modularity, predictability and reusability of your code.
 
 #### Practical FP definition:
 FP is about pulling programs apart and reassembling them from the same parts, composing in functions together and that means we need to make the output of a function to serve as the input of the next one, in order to do so, we should avoid shared mutable state & side-effects (use pure functions)

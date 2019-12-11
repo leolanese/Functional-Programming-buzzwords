@@ -22,7 +22,7 @@ Hide details (abstract us of the detail) and give us the ability to talk about p
 
 
 #### Function composition:
-Composition means that we can attach multiple functions together, in a chain, where the return value of the first function becomes the input for the next function
+Composition means that we can attach multiple functions together, in a chain, where the return value of the first function becomes the input for the next function.<br>
 Functional composition is the process of combining two or more functions in order to produce a new function or perform some computation.
 
 

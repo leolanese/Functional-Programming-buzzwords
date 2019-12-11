@@ -1,7 +1,8 @@
-# Functional Programming Keynotes and take aways
+# Functional Programming buzzwords
+
 Lets coin the definitions of Functional Programming.
 
-## Keynotes
+## Buzzwords
 
 #### Referential transparency
 An expression is said to be referentially transparent when it can be replaced with its corresponding value without changing the application's behavior
@@ -16,7 +17,7 @@ No 2-way data binding allowed.
 In simple terms, it is a way of thinking about software construction, based on some development style that follow principles.
 
 
-### Abstractions 
+#### Abstractions 
 Hide details (abstract us of the detail) and give us the ability to talk about problems at a higher (or more abstract) level.
 
 
@@ -108,7 +109,7 @@ The same as in Functional Programming, we want to avoid any kind of mutable stat
 Imperative programming is a style of programming where the programmers tell the computer what to do by telling it 'how' to do it. Imperative programming gives rise to a lot of the constructs we use every day: control flow (if-then-else statements and loops), arithmetic operators (+, -, *, /), comparison operators (===, >, <, etc.), and logical operators (&&, ||, !).
  
  
-### Imperative Vs Functional Programming:
+#### Imperative Vs Functional Programming:
 
 In Imperative approach, a developer writes code that describes in exacting detail the steps that the computer must take to accomplish the goal (how to do it)
 In functional approach involves composing the problem as a set of functions to be executed (what to do)
@@ -136,15 +137,20 @@ Reflection is the ability of a code to examine and modify the structure and beha
 
 ### Pure objects:
 A pure object in JavaScript means that it should not have any functions in its prototype.
-```javascript
-const obj = {};
-```
 
-#### FP by definition:
-Functional programming is a paradigm in which we will be creating functions that are going to work out its logic by depending only on its input. This ensures that a function, when called multiple times, is going to return the same result. The function also won't change any data in the outside world, leading to cachable and testable codebase.
+
+#### Functional Programing:
+Functional programming is a paradigm in which we will be creating functions that are going to work
+out its logic by depending only on its input. This ensures that a function, when called multiple times,
+ is going to return the same result. The function also won't change any data in the outside world,
+ leading to cachable and testable codebase.
+
+
+#### Functional Programming long definition:
 
 
 ---
+
 
 <h5> { 'Leo Lanese',<br>
        'Building Inspiring Responsive Reactive Solutions',<br>
@@ -165,3 +171,4 @@ Functional programming is a paradigm in which we will be creating functions that
 <h5>Blog:
 <a href="http://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
 </h5>
+

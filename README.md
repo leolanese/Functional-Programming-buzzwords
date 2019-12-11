@@ -147,7 +147,10 @@ out its logic by depending only on its input. This ensures that a function, when
 
 
 #### Functional Programming long definition:
+"Functional programming is a 'declarative' 'paradigm' of building software by 'composing' 'pure functions', avoiding 'shared state', 'mutable data' and 'side-effects'. Placing the mayor emphasis on the use of functions to come up with a result; the goal, rather, is to 'abstract control flows and operations on data with these functions and threaten them as building blocks' by relying on 'JS first-class' and 'higher-order functions' to improve the modularity, predictability and reusability of your code.
 
+#### Practical FP definition:
+FP is about pulling programs apart and reassembling them from the same parts, composing in functions together and that means we need to make the output of a function to serve as the input of the next one, in order to do so, we should avoid shared mutable state & side-effects (use pure functions)
 
 ---
 

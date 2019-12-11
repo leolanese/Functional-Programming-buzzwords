@@ -1,6 +1,6 @@
 # Functional Programming buzzwords
 
-Lets coin the definitions of Functional Programming.
+Lets have a look at the few definitions that we will find in Functional Programming:
 
 ## Buzzwords:
 
@@ -28,13 +28,15 @@ Functional composition is the process of combining two or more functions in orde
 
 #### First class:
 Functions in JS are "first-class" objects, this means that something has a value:
+```javascript
 let name = "Leo";
-
+```
 
 #### First-Class Functions:
 It means that you can STORE functions into a variable:
-var subName = function(a,b){ return name + a + b };
-
+```javascript
+const subName = function(a,b){ return name + a + b };
+```
 
 #### Higher-Order function:
 A higher-order function is a function that can take another function as an argument, or that returns a function as a result.
@@ -123,9 +125,9 @@ functional programming is stateless. The lack of state allows a functional langu
 
 #### Declarative/Functional vs Imperative/Procedural:
 - Functional Programming: 
-Is a declarative paradigm, meaning that the program logic is expressed without explicitly describing the flow control.
+Is a declarative paradigm, meaning that the program logic is expressed without explicitly describing the flow control: 'what is needs to be done'.
 - Imperative programs:
-Spend lines of code describing the specific steps used to achieve the desired results the flow control: How to do things.
+Spend lines of code describing the specific steps used to achieve the desired results the flow control: 'How to do things'.
  
  
 #### Optics:
@@ -134,10 +136,10 @@ Optics is a functional programming concept that can help us to reduce the amount
  
 #### Reflection:
 FP has no reflection.
-Reflection is the ability of a code to examine and modify the structure and behavior (specifically the values, meta-data, properties & functions) of a program at runtime so it is actually manipulating or invoking of an object’s attributes or functions, like eval() does in JS
+Reflection is the ability of a code to examine and modify the structure and behavior (specifically the values, meta-data, properties & functions) of a program at runtime so it is actually manipulating or invoking of an object’s attributes or functions, like eval() does in JS.
 
 
-### Pure objects:
+#### Pure objects:
 A pure object in JavaScript means that it should not have any functions in its prototype.
 
 

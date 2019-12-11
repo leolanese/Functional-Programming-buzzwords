@@ -2,13 +2,13 @@
 
 Lets coin the definitions of Functional Programming.
 
-## Buzzwords
+## Buzzwords:
 
-#### Referential transparency
+#### Referential transparency:
 An expression is said to be referentially transparent when it can be replaced with its corresponding value without changing the application's behavior
 
 
-#### Declarative
+#### Declarative:
 FP is a Declarative Paradigm software development style, like other: IP or OOP, thats **keeps 'functions' and 'data' separate**.
 No 2-way data binding allowed.
 
@@ -17,7 +17,7 @@ No 2-way data binding allowed.
 In simple terms, it is a way of thinking about software construction, based on some development style that follow principles.
 
 
-#### Abstractions 
+#### Abstractions:
 Hide details (abstract us of the detail) and give us the ability to talk about problems at a higher (or more abstract) level.
 
 
@@ -41,23 +41,26 @@ A higher-order function is a function that can take another function as an argum
 In JS, functions are 'First-Class' & 'Higher-Order functions'.
 
 
-#### side-effects:
+#### Side-effects:
 Mutating data can cause unintended side-effects.
 A side effect is a change of system state or observable interaction with the outside world that occurs during the calculation of a result. 
-Side effects include:
-- Modifying any external variable or object property (e.g., a global variable, or a variable in the parent function scope chain)
+Side effects include (not a complete list):
+- Modifying any external variable or object property (a global variable, or a variable in the parent function scope chain)
 - Logging to the console
 - Writing to the screen
 - Writing to a file
-- Writing to the network
+- Making network requests
 - Triggering any external process
 - Calling any other functions with side-effects
+- Mainly perform IO
+- Modifying the DOM tree
+- Using Date()
 
 
 #### Pure function:
 - Given the same input, always return the same output (pure)
 - Has no side effects (immutable)
-
+This means that the function body may not depend on variables outside its arguments, unless they are constant for the lifetime of the program.
 
 #### Immutability:
 An immutable object is an object that can’t be modified after it’s created. Conversely, a mutable object is any object

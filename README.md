@@ -4,7 +4,7 @@ Let's have a look at the few definitions that we will find in Functional Program
 
 ## Buzzwords:
 
-### Referential transparency:
+### `Referential transparency`:
 An expression is said to be referentially transparent when it can be replaced with its corresponding value without changing the application's behaviour
 ```js
 referential transparency = pure functions + immutable data

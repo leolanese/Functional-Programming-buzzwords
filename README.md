@@ -6,7 +6,9 @@ Let's have a look at the few definitions that we will find in Functional Program
 
 #### Referential transparency:
 An expression is said to be referentially transparent when it can be replaced with its corresponding value without changing the application's behaviour
-
+```js
+referential transparency = pure functions + immutable data
+```
 
 #### Declarative:
 FP is a Declarative Paradigm software development style, like other: Imperative Programming or Object-Oriented Programming, that's **keeps 'functions' and 'data' separate**.
@@ -68,6 +70,8 @@ This means that the function body may not depend on variables outside its argume
 An immutable object is an object that can’t be modified after it’s created. Conversely, a mutable object is any object
 which can be modified after it’s created.
 
+#### Immutable Object:
+An immutable object is an object whose state doesn't change after creation.
 
 #### Recursion:
 A recursive function is a function that quite simply calls itself. 

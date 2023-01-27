@@ -1,6 +1,6 @@
 # Functional Programming buzzwords
 
-Let's have a look at the few definitions that we will find in Functional Programming:
+> Let's have a look at the few definitions that we will find in Functional Programming:
 
 ## Buzzwords:
 
@@ -9,6 +9,14 @@ An expression is said to be referentially transparent when it can be replaced wi
 ```js
 referential transparency = pure functions + immutable data
 ```
+
+### Low coupling
+Coupling is the measure of code dependency. We always want to reduce coupling and make our code components as independent of each other as possible. Immutability helps in achieving low coupling.
+
+
+### Parallelization
+Immutability makes it easier to parallelize code execution as there are no conflicts among objects and instances.
+
 
 ### `Functional Programing`:
 Functional programming is a paradigm in which we will be creating functions that are going to work out its logic by depending only on its input. This ensures that a function, when called multiple times, is going to return the same result. The function also won't change any data in the outside world, leading to the cachable and testable codebase.
